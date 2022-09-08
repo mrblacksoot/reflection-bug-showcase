@@ -35,7 +35,7 @@
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
-            "m_Id": "7373c4b826f346dcad2c7d0d45e7f30a"
+            "m_Id": "8e29d7c51c914a8388432a6e32426fff"
         }
     ],
     "m_Nodes": [
@@ -2906,7 +2906,7 @@
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_46e33bc0799c4d01b9a087dc0191146a",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_WaterTex",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -3874,42 +3874,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
-    "m_ObjectId": "7373c4b826f346dcad2c7d0d45e7f30a",
-    "m_Name": "",
-    "m_ChildObjectList": [
-        {
-            "m_Id": "bab8a16767f342c3a8452fa08773b794"
-        },
-        {
-            "m_Id": "46e33bc0799c4d01b9a087dc0191146a"
-        },
-        {
-            "m_Id": "41ad997d500e4d52a38dee3f81e6bc63"
-        },
-        {
-            "m_Id": "9ebb50a335fc4f6991343288f5fcd2ce"
-        },
-        {
-            "m_Id": "8c0c13f8cb7248de92263761ba627b8b"
-        },
-        {
-            "m_Id": "86c4fd1021c141689f14eb171e74827f"
-        },
-        {
-            "m_Id": "507bea733212414cbaa33658ad9d33b6"
-        },
-        {
-            "m_Id": "569d4443a17b460896df6d0432a81718"
-        },
-        {
-            "m_Id": "632ba4e3bd3c4f64bd6905775c307135"
-        }
-    ]
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "765fadd99c1641528f82e6c695071239",
     "m_Id": 2,
@@ -4502,7 +4466,7 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Width",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
@@ -4836,6 +4800,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "8e29d7c51c914a8388432a6e32426fff",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "bab8a16767f342c3a8452fa08773b794"
+        },
+        {
+            "m_Id": "46e33bc0799c4d01b9a087dc0191146a"
+        },
+        {
+            "m_Id": "41ad997d500e4d52a38dee3f81e6bc63"
+        },
+        {
+            "m_Id": "9ebb50a335fc4f6991343288f5fcd2ce"
+        },
+        {
+            "m_Id": "8c0c13f8cb7248de92263761ba627b8b"
+        },
+        {
+            "m_Id": "86c4fd1021c141689f14eb171e74827f"
+        },
+        {
+            "m_Id": "507bea733212414cbaa33658ad9d33b6"
+        },
+        {
+            "m_Id": "569d4443a17b460896df6d0432a81718"
+        },
+        {
+            "m_Id": "632ba4e3bd3c4f64bd6905775c307135"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "902a2e1381e240f09ee1b77a0b85857f",
     "m_Id": 2,
@@ -4891,7 +4891,7 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Height",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
